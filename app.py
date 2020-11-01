@@ -3,7 +3,7 @@ import asyncio
 from confluent_kafka import Consumer, Producer
 from confluent_kafka.admin import AdminClient, NewTopic
 
-
+TOPIC_NAME = "org.waelson.app.views"
 BROKER_URL = "PLAINTEXT://localhost:29092"
 
 
@@ -43,15 +43,14 @@ def main():
     """Checks for topic and creates the topic if it does not exist"""
     client = AdminClient({"bootstrap.servers": BROKER_URL})
 
-    topic_name = "org.udacity.lesson2.views"
-    exists = topic_exists(client, topic_name)
-    print(f"Topic {topic_name} exists: {exists}")
+    exists = topic_exists(client, TOPIC_NAME)
+    print(f"Topic {TOPIC_NAME} exists: {exists}")
 
     if exists is False:
-        create_topic(client, topic_name)
+        create_topic(client, TOPIC_NAME)
 
     try:
-        asyncio.run(produce_consume(topic_name))
+        asyncio.run(produce_consume(TOPIC_NAME))
     except KeyboardInterrupt as e:
         print("shutting down")
 

@@ -1,6 +1,6 @@
 ## Sending and Reading Messages from Apache Kafka
 
-This repository is a simple application that connect to Apache Kafka to send and read messages
+This repository is a simple application that connect to Apache Kafka, create a topic, send and read messages.
 
 ---
 
@@ -54,3 +54,6 @@ This is simplest part of this tutorial. Run command bellow
 ```bash
 python app.py
 ```
+
+If you did all correctly, you get output similarly to image below.
+<img src="">
