@@ -55,5 +55,5 @@ This is simplest part of this tutorial. Run command bellow
 python app.py
 ```
 
-If you did all correctly, you get output similarly to image below.
+If you did all correctly, you will get an output similarly to image below.
 <img src="https://raw.githubusercontent.com/Waelson/kafka-python/main/images/output_console.png">
