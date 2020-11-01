@@ -27,7 +27,7 @@ To run any project code, youu will have to set up a virtual environment with pro
 
 #### 2.1. Install Python Dependencies
 
-This project has a only dependency. It is setting in 'requirements.txt' file. To install dependency use follow command:
+This project has a single dependency. It is setting in 'requirements.txt' file. To install dependency use follow command:
 
 ```bash
 pip install r- requirements.txt
