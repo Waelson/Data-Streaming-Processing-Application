@@ -35,10 +35,10 @@ pip install r- requirements.txt
 
 #### 2.2. Start Kafka (run on Docker)
 
-Into 'scripts' folder run:
+Into 'scripts' folder run the following command:
 
 ```bash
-brew install hadolint
+./start_kafka.sh
 ```
 
 or
