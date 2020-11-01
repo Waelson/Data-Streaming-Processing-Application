@@ -46,3 +46,11 @@ or
 ```bash
 docker-componse up -d
 ```
+
+#### 2.3. Running Python Application
+
+This is simplest part of this tutorial. Run command bellow
+
+```bash
+python app.py
+```
