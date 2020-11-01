@@ -56,4 +56,4 @@ python app.py
 ```
 
 If you did all correctly, you get output similarly to image below.
-<img src="">
+<img src="https://raw.githubusercontent.com/Waelson/kafka-python/main/images/output_console.png">
