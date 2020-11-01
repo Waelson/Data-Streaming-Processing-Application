@@ -21,4 +21,20 @@ You would require you to install Docker Desktop to create containers for individ
 
 ---
 
+### 2. Instructions
+
 To run any project code, youu will have to set up a virtual environment with project dependencies. All of following instructions are to be completed via a terminal/command line prompt.
+
+#### 2.1. Start Kafka (run on Docker)
+
+Into 'scripts' folder run:
+
+```bash
+brew install hadolint
+```
+
+or
+
+```bash
+docker-componse up -d
+```
