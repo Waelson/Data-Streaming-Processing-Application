@@ -79,7 +79,7 @@ python app_producer.py
 
 #### 2.5. Accessing KafkaDrop
 
-Kafdrop is an open source project that allow you visualize informations about your Kafka Cluster. When you start Kafka (step 2.2), you will be running Kafdrop too. To access it use the URL bellow:
+[Kafdrop](https://github.com/obsidiandynamics/kafdrop) is an open source project that allow you visualize informations about your Kafka Cluster. When you start Kafka (step 2.2), you will be running Kafdrop too. To access it use the URL bellow. Pay attention: There are others tools that allow you manager Kafka Cluster. Please, consider to visit [CMAK - Cluster Manager for Apache Kafka](https://github.com/yahoo/CMAK)
 
 ```bash
 http://localhost:9000
