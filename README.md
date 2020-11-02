@@ -84,3 +84,5 @@ KafkaDrop is an open source project that allow you visualize informations about 
 ```bash
 http://localhost:9000
 ```
+
+<img src="https://raw.githubusercontent.com/Waelson/kafka-python/main/images/output_kafkadrop.png">
