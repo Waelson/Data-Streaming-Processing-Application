@@ -27,7 +27,7 @@ To run any project code, youu will have to set up a virtual environment with pro
 
 #### 2.1. Install Python Dependencies
 
-This project has a single dependency. It is setting in 'requirements.txt' file. To install dependency use follow command:
+This project has two dependencies. It is setting in 'requirements.txt' file. To install dependency use follow command:
 
 ```bash
 pip install r- requirements.txt
@@ -49,11 +49,24 @@ docker-componse up -d
 
 #### 2.3. Running Python Application
 
-This is simplest part of this tutorial. Run command bellow
+The script bellow create a topic if it don't exists. Then, it send and read messages.
 
 ```bash
-python app.py
+python app_topic.py
 ```
 
+In this script you can to simulate message producers sync and async
+
+```bash
+python app_producer.py
+```
+
+#### 2.4. Output console
+
 If you did all correctly, you will get an output similarly to image below.
+
+```bash
+python app_topic.py
+```
+
 <img src="https://raw.githubusercontent.com/Waelson/kafka-python/main/images/output_console.png">

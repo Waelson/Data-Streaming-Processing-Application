@@ -78,6 +78,7 @@ async def consume(topic_name):
     """Consumes data from the Kafka Topic"""
     c = Consumer({"bootstrap.servers": BROKER_URL, "group.id": "0"})
     c.subscribe([topic_name])
+
     while True:
         message = c.poll(1.0)
         if message is None:
