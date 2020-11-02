@@ -23,7 +23,7 @@ You would require you to install Docker Desktop to create containers for individ
 
 ### 2. Instructions
 
-To run any project code, youu will have to set up a virtual environment with project dependencies. All of following instructions are to be completed via a terminal/command line prompt.
+To run any project code, you will have to set up a virtual environment with project dependencies. All of following instructions are to be completed via a terminal/command line prompt.
 
 #### 2.1. Install Python Dependencies
 
@@ -79,7 +79,7 @@ python app_producer.py
 
 #### 2.5. Accessing KafkaDrop
 
-KafkaDrop is an open source project that allow you visualize informations about yout Kafka Cluster. When you start Kafka (step 2.2), you will be running KafkaDrop. To access it use the URL bellow:
+KafkaDrop is an open source project that allow you visualize informations about your Kafka Cluster. When you start Kafka (step 2.2), you will be running KafkaDrop. To access it use the URL bellow:
 
 ```bash
 http://localhost:9000
