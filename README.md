@@ -76,3 +76,11 @@ python app_producer.py
 ```
 
 <img src="https://raw.githubusercontent.com/Waelson/kafka-python/main/images/output_producer.png">
+
+#### 2.5. Accessing KafkaDrop
+
+KafkaDrop is an open source project that allow you visualize informations about yout Kafka Cluster. When you start Kafka (step 2.2), you will be running KafkaDrop. To access it use the URL bellow:
+
+```bash
+http://localhost:9000
+```
