@@ -69,10 +69,10 @@ If you did all correctly, you will get an output similarly to image below.
 python app_topic.py
 ```
 
-<img src="https://raw.githubusercontent.com/Waelson/kafka-python/main/images/output_console.png">
+<img src="https://raw.githubusercontent.com/Waelson/kafka-python/main/images/output_topic.png">
 
 ```bash
 python app_producer.py
 ```
 
-<img src="https://raw.githubusercontent.com/Waelson/kafka-python/main/images/output_console.png">
+<img src="https://raw.githubusercontent.com/Waelson/kafka-python/main/images/output_producer.png">
