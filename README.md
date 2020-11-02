@@ -70,3 +70,9 @@ python app_topic.py
 ```
 
 <img src="https://raw.githubusercontent.com/Waelson/kafka-python/main/images/output_console.png">
+
+```bash
+python app_producer.py
+```
+
+<img src="https://raw.githubusercontent.com/Waelson/kafka-python/main/images/output_console.png">
