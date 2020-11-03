@@ -29,7 +29,7 @@ You would require you to install Docker Desktop to create containers for individ
 
 To run any project code, you will have to set up a virtual environment with project dependencies. All of following instructions are to be completed via a terminal/command line prompt.
 
-#### 2.0 Clone Repository
+#### 2.1. Clone Repository
 
 First you need to clone this repository
 
@@ -37,7 +37,7 @@ First you need to clone this repository
 git clone https://github.com/Waelson/Simple-Kafka-Python-Application.git
 ```
 
-#### 2.1. Install Python Dependencies
+#### 2.2. Install Python Dependencies
 
 This project has two dependencies. It is setting in 'requirements.txt' file. To install dependency use follow command:
 
@@ -45,7 +45,7 @@ This project has two dependencies. It is setting in 'requirements.txt' file. To 
 pip install r- requirements.txt
 ```
 
-#### 2.2. Start Kafka (run on Docker)
+#### 2.3. Start Kafka (run on Docker)
 
 Into 'scripts' folder run the following command:
 
@@ -79,7 +79,7 @@ The script bellow set a producer with several parameters that impact the produce
 python app_param_producer.py
 ```
 
-#### 2.4. Output console
+#### 2.5. Output console
 
 If you did all correctly, you will get an output similarly to image below.
 
@@ -97,7 +97,7 @@ python app_producer.py
 
 #### 2.5. Accessing KafkaDrop
 
-[Kafdrop](https://github.com/obsidiandynamics/kafdrop) is an open source project that allow you visualize informations about your Kafka Cluster. When you start Kafka (step 2.2), you will be running Kafdrop as well. To access it use the URL bellow. Pay attention: There are others tools that allow you manager Kafka Cluster. Please, consider to visit [CMAK - Cluster Manager for Apache Kafka](https://github.com/yahoo/CMAK) for know more about this fantastic tool.
+[Kafdrop](https://github.com/obsidiandynamics/kafdrop) is an open source project that allow you visualize informations about your Kafka Cluster. When you start Kafka (step 2.3), you will be running Kafdrop as well. To access it use the URL bellow. Pay attention: There are others tools that allow you manager Kafka Cluster. Please, consider to visit [CMAK - Cluster Manager for Apache Kafka](https://github.com/yahoo/CMAK) for know more about this fantastic tool.
 
 [http://localhost:9000](http://localhost:9000)
 
