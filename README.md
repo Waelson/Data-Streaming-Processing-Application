@@ -8,9 +8,13 @@ This repository is a simple application that connect to Apache Kafka, create a t
 
 #### 1.1. Python
 
-[Download and install the python](https://www.python.org/downloads/).
+[Download and install the Python](https://www.python.org/downloads/).
 
-#### 1.2. Docker Desktop
+#### 1.2 Pip
+
+[Download and install the Pip](https://pip.pypa.io/en/stable/installing/)
+
+#### 1.3. Docker Desktop
 
 You would require you to install Docker Desktop to create containers for individual microservices. Refer the following links for instructions
 
