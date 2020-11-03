@@ -29,7 +29,7 @@ You would require you to install Docker Desktop to create containers for individ
 
 To run any project code, you will have to set up a virtual environment with project dependencies. All of following instructions are to be completed via a terminal/command line prompt.
 
-#### 2.1. Clone Repository
+#### 2.1. Clone the Repository
 
 First you need to clone this repository
 
