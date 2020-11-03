@@ -61,6 +61,12 @@ In this script you can to simulate message producers sync and async
 python app_producer.py
 ```
 
+The script bellow set a producer with several parameters that impact the producer's performance.
+
+```bash
+python app_param_producer.py
+```
+
 #### 2.4. Output console
 
 If you did all correctly, you will get an output similarly to image below.
