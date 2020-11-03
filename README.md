@@ -29,6 +29,14 @@ You would require you to install Docker Desktop to create containers for individ
 
 To run any project code, you will have to set up a virtual environment with project dependencies. All of following instructions are to be completed via a terminal/command line prompt.
 
+#### 2.0 Clone Repository
+
+First you need to clone this repository
+
+```bash
+git clone https://github.com/Waelson/Simple-Kafka-Python-Application.git
+```
+
 #### 2.1. Install Python Dependencies
 
 This project has two dependencies. It is setting in 'requirements.txt' file. To install dependency use follow command:
